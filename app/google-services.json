@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "1015708449557",
+    "firebase_url": "https://firbaseauthentication-aea98-default-rtdb.firebaseio.com",
+    "project_id": "firbaseauthentication-aea98",
+    "storage_bucket": "firbaseauthentication-aea98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015708449557:android:47ac6f543f6e46ffe4871c",
+        "android_client_info": {
+          "package_name": "com.example.firbaseauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015708449557-iu0megd20ntkv1s221d9h9qct5pjk5f1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firbaseauthentication",
+            "certificate_hash": "f540e6d4164bff136c3d7cb4c9e6d710d2f16e17"
+          }
+        },
+        {
+          "client_id": "1015708449557-nqjjsptn47avvnir3cbceirenbqh32s4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqxJUNyCPR7apWAyCOR-3UwwnsJZBsoaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015708449557-nqjjsptn47avvnir3cbceirenbqh32s4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015708449557:android:fa2300257c2a9075e4871c",
+        "android_client_info": {
+          "package_name": "com.example.gymworkout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015708449557-nqjjsptn47avvnir3cbceirenbqh32s4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqxJUNyCPR7apWAyCOR-3UwwnsJZBsoaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015708449557-nqjjsptn47avvnir3cbceirenbqh32s4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/black"
+    tools:context=".AbsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_margin="20dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="30dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/crosspuchrollupsimg"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/crosspunchrollup"
+                    android:background="@drawable/ripple_button"
+                    >
+                </ImageView>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="Cross Punch Roll Ups"
+                android:textColor="@color/white"
+                android:layout_marginTop="6dp">
+
+            </TextView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="20dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="30dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/foamrollarreversecrunchonbenchimg"
+                    android:layout_gravity="center"
+
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/foamrollarreversecrunchonbench"
+                    android:background="@drawable/ripple_button"
+                    >
+                </ImageView>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:id="@+id/textViewdumbbellraisesbent"
+                android:textStyle="bold"
+                android:text="Reverse Crunch On Bench"
+                android:textColor="@color/white"
+                android:layout_marginTop="6dp">
+
+            </TextView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="20dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="30dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/hipcrosshoverimg"
+                    android:layout_gravity="center"
+
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/hipcrosshovr"
+                    android:background="@drawable/ripple_button"
+                    >
+                </ImageView>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+
+                android:textStyle="bold"
+                android:text="Hip Cross Hover"
+                android:textColor="@color/white"
+                android:layout_marginTop="6dp">
+
+            </TextView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="20dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="30dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/inclinrevesercrunchimg"
+                    android:layout_gravity="center"
+
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/inclinerevrsecrunch"
+                    android:background="@drawable/ripple_button"
+                    >
+                </ImageView>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="Incline Reverse Crunch"
+                android:textColor="@color/white"
+                android:layout_marginTop="6dp">
+
+            </TextView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="20dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="30dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/kneelingabwhealimg"
+                    android:layout_gravity="center"
+
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/frontraise"
+                    android:background="@drawable/ripple_button"
+                    >
+                </ImageView>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="kneeling Ab Wheel"
+                android:textColor="@color/white"
+                android:layout_marginTop="6dp">
+
+            </TextView>
+
+
+            <androidx.cardview.widget.CardView
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="30dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/medicineballvupomg"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/chestshouldertriceps"
+                android:background="@drawable/ripple_button"
+                >
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="Medicine ball V Up"
+                android:textColor="@color/white"
+                android:layout_marginTop="6dp">
+
+            </TextView><androidx.cardview.widget.CardView
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="30dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/negativesitupsimg"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/negativesitups"
+                android:background="@drawable/ripple_button"
+                >
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="Negative Sit Ups"
+                android:textColor="@color/white"
+                android:layout_marginTop="6dp">
+
+            </TextView>
+            <androidx.cardview.widget.CardView
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="30dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/plankpikesimg"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/plankpikes"
+                android:background="@drawable/ripple_button"
+                >
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="Plank Pikes"
+                android:textColor="@color/white"
+                android:layout_marginTop="6dp">
+
+            </TextView>
+            <androidx.cardview.widget.CardView
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="30dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/reversecrunchonbenchimg"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/reversecrunchonbench"
+                android:background="@drawable/ripple_button"
+                >
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="Reverse Crunch "
+                android:textColor="@color/white"
+                android:layout_marginTop="6dp">
+
+            </TextView>
+            <androidx.cardview.widget.CardView
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="30dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/reversecurlandbenchimg"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/reversecurl"
+                android:background="@drawable/ripple_button"
+                >
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="ReverseCurlAndLift"
+                android:textColor="@color/white"
+                android:layout_marginTop="6dp">
+
+            </TextView>
+            <androidx.cardview.widget.CardView
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="30dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/reverseplankhoverimg"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/reversecurl"
+                android:background="@drawable/ripple_button"
+                >
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="Reverse Plank Hover"
+                android:textColor="@color/white"
+                android:layout_marginTop="6dp"></TextView>
+            <androidx.cardview.widget.CardView
+            android:layout_margin="20dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="30dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:id="@+id/weightedsitupsimg"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/weightedsitups"
+                android:background="@drawable/ripple_button"
+                >
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:text="Weighted Situps"
+                android:textColor="@color/white"
+                android:layout_marginTop="6dp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
