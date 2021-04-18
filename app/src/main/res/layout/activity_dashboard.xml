@@ -382,11 +382,13 @@
 
 
     <com.google.android.material.navigation.NavigationView
+        android:background="@drawable/navigationbackground"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/navigationView"
         app:headerLayout="@layout/navigationnavheader"
         app:menu="@menu/menufille"
+        app:itemTextColor="@color/white"
         android:layout_gravity="start"
         ></com.google.android.material.navigation.NavigationView>
 

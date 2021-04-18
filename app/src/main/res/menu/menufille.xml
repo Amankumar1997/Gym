@@ -2,16 +2,24 @@
 <menu
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="navigation_view">
-<item
-    android:title="Excersizes"
-    android:id="@+id/excersize"
-    ></item>
-    <item
 
-        android:title="Workouts"
-        android:id="@+id/workout"
-        ></item>
+    tools:showIn="navigation_view">
+
+
+    <group>
+        <item
+            android:title="Excersizes"
+            android:id="@+id/excersize"
+            ></item>
+        <item
+
+            android:title="Workouts"
+            android:id="@+id/workout"
+            ></item>
+    </group>
+<group
+    android:checkableBehavior="single"
+    android:id="@+id/group2">
     <item
         android:title="Setting"
         android:id="@+id/setting"
@@ -20,13 +28,18 @@
         android:title="sharewith"
         android:id="@+id/sharewith"
         ></item>
+</group>
+   <group
+       android:checkableBehavior="single"
+       android:id="@+id/group3"
+       >
     <item
-        android:title="Rate Us"
-        android:id="@+id/rateus"
+        android:title="Exit"
+        android:id="@+id/exit"
         ></item>
     <item
-        android:title="Send FeedBack"
+        android:title="Exit"
         android:id="@+id/sendfeedback"
         ></item>
-
+   </group>
 </menu>

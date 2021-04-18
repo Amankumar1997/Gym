@@ -2,11 +2,13 @@ package com.example.gymworkout;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.net.Uri;
@@ -28,7 +30,7 @@ public class DashboardActivity extends AppCompatActivity {
     NavigationView navigationView;
     ImageView absButton, backButton,bicepsButton,calfButton,chestButton,forearmsButton,legsButton,shoulderButton,tricepsButton,cardioButton;
     Toolbar toolbar;
-
+private long backPressTime;
 
 
     @Override
@@ -40,8 +42,7 @@ public class DashboardActivity extends AppCompatActivity {
         bicepsButton= findViewById(R.id.bicepsButton);
         calfButton= findViewById(R.id.calfButton);
         chestButton= findViewById(R.id.chestButton);
-        StrictMode.VmPolicy.Builder builder=new StrictMode.VmPolicy.Builder();
-        StrictMode.setVmPolicy(builder.build());
+
         forearmsButton= findViewById(R.id.forearmsButton);
         legsButton= findViewById(R.id.legsButton);
         shoulderButton= findViewById(R.id.shoulderButton);
@@ -153,6 +154,36 @@ public class DashboardActivity extends AppCompatActivity {
                         intent1.setType("application/vnd.android.package-achive");
                         intent1.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(new File(apkpath)));
                         startActivity(Intent.createChooser(intent1, "Sharevia"));
+                        drawerLayout.closeDrawer(GravityCompat.START);
+                        break;
+                    case R.id.exit:
+                        AlertDialog.Builder alert=new AlertDialog.Builder(DashboardActivity.this);
+                        // Setting Alert Dialog Title
+                        alert.setTitle("Confirm Exit..!!!");
+                        alert.setMessage("Sure You wants to exit");
+
+                        alert.setPositiveButton("yes", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                finishAffinity();
+                            }
+                        });
+                        alert.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.cancel();
+                            }
+                        });
+                        alert.show();
+
+
+
+                        
+
+                        
+                       
+                        
+
                 }
 
 
@@ -170,5 +201,20 @@ public class DashboardActivity extends AppCompatActivity {
 
 
 
+    }
+
+    @Override
+    public void onBackPressed() {
+
+        if(backPressTime + 2000 >System.currentTimeMillis())
+        {//for double click to exit
+            super.onBackPressed();
+            return;
+        }
+        else {
+            Toast.makeText(this, "press back again to exit ", Toast.LENGTH_SHORT).show();
+        }
+
+        backPressTime=System.currentTimeMillis();
     }
 }
